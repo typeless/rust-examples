@@ -1,4 +1,4 @@
-extern crate rand;
+use rand;
 
 pub fn main() {
     let x = rand::random::<u8>();

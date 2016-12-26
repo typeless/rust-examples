@@ -1,6 +1,4 @@
-extern crate openssl;
-
-use self::openssl::symm::*;
+use openssl::symm::*;
 
 pub fn main() {
     let data: [u8; 8] = [11, 12, 13, 14, 15, 16, 17, 18];
