@@ -2,7 +2,7 @@ extern crate openssl;
 
 use self::openssl::symm::*;
 
-pub fn des_example() {
+pub fn main() {
     let data: [u8; 8] = [11, 12, 13, 14, 15, 16, 17, 18];
     let key: [u8; 8] = [21, 22, 23, 24, 25, 26, 27, 28];
 

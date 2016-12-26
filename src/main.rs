@@ -1,6 +1,8 @@
 
 mod des;
+mod random;
 
 fn main() {
-    des::des_example();
+    des::main();
+    random::main();
 }

@@ -5,3 +5,4 @@ authors = ["Mura Li <mura_li@castech.com.tw>"]
 
 [dependencies]
 openssl = "0.9.4"
+rand = "0.3"
